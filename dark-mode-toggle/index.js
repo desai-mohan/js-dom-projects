@@ -1,5 +1,6 @@
-const button = document.querySelector("#button");
-button.addEventListener("click", () => {
-  const isDark = document.body.classList.toggle("dark");
-  button.textContent = isDark ? "Light Mode" : "Dark Mode";
+const button = document.getElementById("button");
+
+button.addEventListener("click", function () {
+  isActive = document.body.classList.toggle("dark");
+  button.textContent = isActive ? "Light Mode" : "Dark Mode";
 });
