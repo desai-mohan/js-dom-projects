@@ -1,0 +1,11 @@
+button {
+  display: block;
+  text-align: center;
+  background-color: red;
+  padding: 1rem;
+  cursor: pointer;
+}
+.dark {
+  background-color: black;
+  color: red;
+}
